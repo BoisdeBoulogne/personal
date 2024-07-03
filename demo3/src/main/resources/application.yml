@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo3
+  datasource:
+    url: jdbc:mysql://localhost:3307/college_poi
+    username: root
+    password: 1rdz3456789o
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+

@@ -1,0 +1,10 @@
+package com.example.demo.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.demo.pojo.Pic;
+import org.apache.ibatis.annotations.Param;
+
+public interface PicMapper extends BaseMapper<Pic> {
+     void deleteByPoiId(@Param("poiId") int poiId);
+
+}
